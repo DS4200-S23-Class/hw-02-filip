@@ -20,3 +20,20 @@ td{
     text-align: center;
     border: 1px solid;
 }
+
+/* style for flexbox
+    box = parent, item=child */
+
+.box{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.item{
+    width:50%;
+    display: inline-flex;
+    flex-direction:column;
+    justify-content: center;
+    color: #BF3A2B;
+}
