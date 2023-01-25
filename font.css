@@ -37,3 +37,27 @@ td{
     justify-content: center;
     color: #BF3A2B;
 }
+
+rect{
+    fill: lightblue;
+    stroke: black;
+    stroke-width: 2;
+}
+
+circle{
+    opacity: 0.5;
+    fill: red;
+}
+
+rect:hover {
+    fill: darkblue;
+  }
+
+circle:hover{
+    stroke: black;
+    stroke-width: 2;
+}
+
+
+
+  
